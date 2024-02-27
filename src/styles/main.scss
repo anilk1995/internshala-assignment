@@ -1,0 +1,223 @@
+@import "override";
+@import "utility";
+@import "utility_colors";
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #fbfcfd;
+}
+
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+}
+
+.custom-scroll {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: darken(#ddd, 20%);
+  }
+}
+
+//
+
+.container {
+  background-color: inherit;
+}
+
+.breadcrumb {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-box {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.rating-box {
+  background: #f3f9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 0px 0px 12px 12px;
+  width: 135px;
+  height: 118px;
+  top: 0;
+  right: 85px;
+}
+
+.rating {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #074786;
+}
+
+.rating-type {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #074786;
+}
+
+.main-card-btn {
+  background-color: #1b88f4;
+  color: #fff;
+  width: 232px;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  cursor: pointer;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+
+.item-number {
+  border: 1px solid #e1e4e6;
+  color: #626e79;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+.suggestion-heading {
+  color: #2c384a;
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.card-container {
+  width: 300px;
+  height: 425px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  font-family: Inter;
+  color: #626e79;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-align: center;
+}
+
+.card-title {
+  color: #626e79;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.current-price {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.base-price {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9fa9b3;
+}
+
+.discount {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ef4c5d;
+}
+
+.email-input {
+  width: 348px;
+  height: 52px;
+  border: none;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.email-input:focus {
+  outline-color: #1b88f4;
+}
+
+.signup-btn {
+  border: none;
+  width: 97px;
+  height: 52px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.bestseller {
+  color: #fff;
+  background-color: #ff7724;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  padding: 5px 10px;
+  border-radius: 0 8px 8px 0;
+  width: 125px;
+}
+
+.label-svg {
+  height: 20px;
+  width: 20px;
+}

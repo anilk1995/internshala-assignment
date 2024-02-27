@@ -1,0 +1,54 @@
+.searchbar {
+  /* Rectangle */
+
+  box-sizing: border-box;
+
+  width: 258px;
+  height: 37px;
+  left: 480px;
+  top: 14px;
+
+  background: #ffffff;
+  border: 1px solid #e1e4e6;
+  border-radius: 8px;
+}
+
+.navbar {
+  width: 100%;
+  height: 64px;
+
+  background: #212731;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.link {
+  text-decoration: none;
+  color: #d1d6da;
+}
+
+.title {
+  /* Best Website builders in the US */
+
+  width: 1006px;
+  height: 60px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  color: #2c384a;
+}
+
+.thumbnail-img {
+  width: 141px;
+  height: 103px;
+  left: 326px;
+  top: 422px;
+}
