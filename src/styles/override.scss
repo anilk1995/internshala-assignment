@@ -5,8 +5,6 @@
 
   width: 258px;
   height: 37px;
-  left: 480px;
-  top: 14px;
 
   background: #ffffff;
   border: 1px solid #e1e4e6;
@@ -51,4 +49,29 @@
   height: 103px;
   left: 326px;
   top: 422px;
+}
+
+@media screen and (max-width: 1048px) {
+  .searchbar {
+    /* Rectangle */
+
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 37px;
+
+    background: #ffffff;
+    border: 1px solid #e1e4e6;
+    border-radius: 8px;
+  }
+
+  .navbar {
+    width: 1048px;
+    height: 64px;
+    background: #212731;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
 }

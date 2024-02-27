@@ -50,7 +50,7 @@ export const items = [
     highlights:
       "Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations",
     rating: 4.8,
-    features: ["Documentation", "Esay Use", "Out Of Box"],
+    features: ["Documentation", "Easy Use", "Out Of Box"],
     price: "$49.96",
   },
 ];

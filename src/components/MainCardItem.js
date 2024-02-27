@@ -18,8 +18,12 @@ function MainCardItem({ item }) {
         <span className="font-s text-black-45">{item.description}</span>
         <h3 className="font-s text-black-45 font-bold">Main highlights</h3>
         <span className="font-s text-black-45">
-          [What you get]: {item.highlights}
+          <span className="font-bold">[What you get]:</span>
+          {item.highlights}
         </span>
+        <div className="d-flex justify-content-center">
+          <Button className="show-btn text-blue">Show more</Button>
+        </div>
       </div>
       <div className="rating-box">
         <span className="rating">{item.rating}</span>
